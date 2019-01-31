@@ -1,29 +1,17 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # Social Media Activity (Twitter)
-# 
-# ## User details
-# consumer_key : xxxxxx
-# consumer_secret : xxxxxx
-# 
-# access_token : xxxxxx
-# access_secret : xxxxxx
-
-# In[37]:
-
-
 # Import the necessary libraries
 import tweepy
 from tweepy import OAuthHandler
 import numpy as np
 
 # Authenticate tweepy
-consumer_key = 'aZqxfmKH5E2arKCdpgZsVe3E1'
-consumer_secret = 'kmNenKC6aHz4HqP3eLSI2aXCDRopGZYz6Aui2K5VupKIwKQl4M'
+consumer_key = 'xxxxxx'
+consumer_secret = 'xxxxxx'
 
-access_token = '622232148-xs7brb0jEmSrr1R1HAJHTxroJQmUWzJnvB7MLg3F'
-access_secret = 'aQn5vdOzeziT6tOQlc8tRnAMHN4SCoMuvDjIshNMsLsM0'
+access_token = 'xxxxxx'
+access_secret = 'xxxxxx'
 
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
